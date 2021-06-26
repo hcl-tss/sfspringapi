@@ -1,9 +1,0 @@
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:XE
-spring.datasource.driverClassName=oracle.jdbc.driver.OracleDriver
-spring.datasource.username=supplier-finance
-spring.datasource.password=p@ssw0rd
-spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
-server.port=8088
-spring.jpa.hibernate.ddl-auto=create
-jwt.secret=supersecretjwt
-jwt.validity=43200000

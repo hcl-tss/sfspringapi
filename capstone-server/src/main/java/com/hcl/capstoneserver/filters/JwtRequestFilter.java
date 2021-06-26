@@ -37,7 +37,7 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 
         String jwt = null;
         String userName = null;
-
+        System.out.println("auth header:"+authorizationHeader);
         //check if authorization header has bearer on it
         if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
             // extract content after bearer as jwt token
@@ -48,6 +48,7 @@ public class JwtRequestFilter extends OncePerRequestFilter {
                 //extract the username from jwt
                 userName = jwtUtil.extractUsername(jwt);
             } catch (JwtException ignored) {
+            	
             }
         }
 
