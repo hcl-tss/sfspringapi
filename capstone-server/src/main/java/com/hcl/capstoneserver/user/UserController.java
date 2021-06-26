@@ -26,6 +26,7 @@ public class UserController {
 
     @PostMapping("/api/sign-in")
     public ResponseEntity<JwtWithTypeDTO> signIn(@Valid @RequestBody AppUserWithPasswordDTO dto) {
+    	System.out.println("Request received");
         return new ResponseEntity<>(
                 userService.signIn(
                         mapper.map(dto, AppUser.class)

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  API_PATH: 'http://localhost:8088/api'
+  //API_PATH: 'http://20.193.224.123:8080/api'
+  API_PATH: 'http://localhost:8080/api'
 };
 
 /*
