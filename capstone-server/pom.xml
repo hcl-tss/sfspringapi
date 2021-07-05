@@ -17,7 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
         <sonar.projectKey>sfspringapi</sonar.projectKey>
-  		<sonar.login>2cd2398cd3212b02704abfb57289ac8317ee8c0d</sonar.login>
+  		<sonar.login>f627f023f8f4259a0827d0686c742ae56b0c36dc</sonar.login>
     </properties>
     <dependencies>
         <dependency>
